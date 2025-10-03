@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About DK's Library</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <!-- Header -->
+  <header class="bg-gray-800 text-white text-center py-8">
+    <h1 class="text-4xl font-bold">About DK's Library</h1>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="bg-gray-700 text-white text-center py-3">
+    <a href="index.html" class="mx-3 hover:text-yellow-400">Home</a>
+    <a href="notes.html" class="mx-3 hover:text-yellow-400">Notes</a>
+    <a href="Feedback.html" class="mx-3 hover:text-yellow-400">Feedback</a>
+    <a href="about.html" class="mx-3 hover:text-yellow-400 font-bold">About</a>
+  </nav>
+
+  <!-- Scrolling Banner -->
+  <div class="bg-black text-white overflow-hidden">
+    <p class="whitespace-nowrap animate-marquee py-2 italic text-sm">
+      For anything to facilitate the growth of this platform in order to provide quality education for all, kindly send your support to <b>0704626187</b>
+    </p>
+  </div>
+
+  <!-- Main Container -->
+  <div class="max-w-5xl mx-auto my-8 space-y-8">
+
+    <!-- Developer Info -->
+    <div class="bg-white p-6 rounded-2xl shadow-md flex items-center gap-6">
+      <figure class="text-center">
+        <img src="photo.jpg" alt="Developer Photo" class="w-32 h-32 object-cover rounded-xl shadow">
+        <figcaption class="mt-2 font-bold">Kigozi Dennis</figcaption>
+      </figure>
+      <div>
+        <h2 class="text-2xl font-semibold text-gray-800 mb-2">About the Developer</h2>
+        <p class="text-gray-700">Kigozi Dennis is a dedicated teacher, IT student, and aspiring software developer with a passion for integrating technology into education. Born and raised in Mukono-Uganda, Dennis discovered early on that learning becomes more meaningful when supported by digital tools. His journey into information technology was inspired by the need to bridge the gap between traditional teaching methods and the fast-changing digital world.</p>
+        <p class="mt-2 text-gray-700">Dennis is currently teaching at <b>Nsambwe C/U Primary School Mukono.</b></p>
+      </div>
+    </div>
+
+    <!-- Biography -->
+    <div class="bg-white p-6 rounded-2xl shadow-md">
+      <h2 class="text-2xl font-semibold text-gray-800 mb-3">Biography</h2>
+      <p class="text-gray-700 mb-2">With experience in classroom teaching, system development, and creative problem-solving, Dennis has developed educational applications, school management systems, and online learning resources. His vision is to empower learners and teachers by providing access to reliable, user-friendly, and affordable digital platforms.</p>
+      <p class="text-gray-700">When he is not coding or teaching, Dennis spends his time exploring new innovations, writing, and supporting community-based educational projects. Through <b>DK’s Library</b>, he aims to ensure that every learner — from primary to tertiary — has free access to knowledge that builds a brighter future.</p>
+    </div>
+
+    <!-- Careers & CV -->
+    <div class="bg-white p-6 rounded-2xl shadow-md">
+      <h2 class="text-2xl font-semibold text-gray-800 mb-3">Careers & Short CV</h2>
+      <p class="text-gray-700 mb-3">I am a multi-talented professional with a background in education and IT. My work bridges the gap between technology and learning.</p>
+      <ul class="list-disc list-inside text-gray-700 space-y-1">
+        <li><b>Profession:</b> Teacher & IT Enthusiast</li>
+        <li><b>Skills:</b> Web Development, Database Management, Programming, Teaching</li>
+        <li><b>Experience:</b> Developing school systems, creating e-learning platforms, and teaching ICT & sciences.</li>
+        <li><b>Goal:</b> To integrate technology into education and improve learning outcomes in schools.</li>
+      </ul>
+    </div>
+
+    <!-- Education -->
+    <div class="bg-white p-6 rounded-2xl shadow-md">
+      <h2 class="text-2xl font-semibold text-gray-800 mb-3">Education Background</h2>
+      <ul class="list-disc list-inside text-gray-700 space-y-1">
+        <li><b>Primary Education:</b> Bishop's East Primary School.</li>
+        <li><b>Secondary Education:</b> St. Kizito SS Nakibano, Lutengo United SS Mukono & Mukono High School.</li>
+        <li><b>College:</b> Buloba Primary Teachers' College (Grade III Teachers' Certificate).</li>
+        <li><b>University:</b> Bachelor of Information Technology (BIT), Team University.</li>
+      </ul>
+    </div>
+
+    <!-- About Library -->
+    <div class="bg-white p-6 rounded-2xl shadow-md">
+      <h2 class="text-2xl font-semibold text-gray-800 mb-3">About DK’s Library</h2>
+      <p class="text-gray-700 mb-2">DK’s Library was created to provide free and easy access to books, notes, and teaching materials for pupils (P.1–P.7), secondary students (S.1–S.6), tertiary learners, and teachers. The library was designed with simplicity in mind, so anyone can browse shelves and access resources without needing an account or login.</p>
+      <p class="text-gray-700">The main purpose of this library is to support learners in their academic journey, reduce barriers to information, and promote digital literacy in schools and communities.</p>
+    </div>
+
+    <!-- Contact Information -->
+    <div class="bg-white p-6 rounded-2xl shadow-md">
+      <h2 class="text-2xl font-semibold text-gray-800 mb-3">Contact Information</h2>
+      <p class="text-gray-700 mb-2">Feel free to reach out for collaborations, contributions, or support.</p>
+      <ul class="text-gray-700 space-y-1">
+        <li><b>Phone:</b> <a href="tel:+256773663448" class="text-blue-600 hover:underline">+256 773 663 448</a></li>
+        <li><b>Email:</b> <a href="mailto:kigozidennis72@gmail.com" class="text-blue-600 hover:underline">kigozidennis72@gmail.com</a></li>
+        <li><b>Location:</b> Mukono, Uganda</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- Custom marquee animation -->
+  <style>
+    .animate-marquee {
+      display: inline-block;
+      animation: marquee 15s linear infinite;
+    }
+    @keyframes marquee {
+      0%   { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+  </style>
+</body>
+</html>

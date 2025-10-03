@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DK's Library - Shelf TITLE</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+    }
+    header {
+      background: #004080;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav {
+      background: #0066cc;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .books {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+    .book {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 20px;
+      transition: transform 0.2s;
+    }
+    .book:hover {
+      transform: scale(1.03);
+    }
+    .book h3 {
+      margin: 0;
+      color: #004080;
+    }
+    .book p {
+      margin: 5px 0;
+      color: #333;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 15px;
+      background: #0066cc;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background: #004080;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #004080;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>📚 DK's Library - Shelf TITLE</h1>
+    <p>Books available for CLASS</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="feedback.html">Feedback</a>
+    <a href="about.html">About</a>
+  </nav>
+
+  <section class="books">
+    <!-- Example book card -->
+    <div class="book">
+      <h3>Book Title</h3>
+      <p><strong>Author:</strong> Author Name</p>
+      <p><strong>Subject:</strong> Subject Name</p>
+      <a class="btn" href="books/example.pdf" target="_blank">📖 Read</a>
+    </div>
+
+    <div class="book">
+      <h3>Another Book</h3>
+      <p><strong>Author:</strong> Author Name</p>
+      <p><strong>Subject:</strong> Subject Name</p>
+      <a class="btn" href="books/example2.pdf" target="_blank">📖 Read</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 DK's Library | Powered by GitHub Pages</p>
+  </footer>
+</body>
+</html>
